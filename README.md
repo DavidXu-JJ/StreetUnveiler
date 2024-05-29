@@ -2,7 +2,7 @@
 
 ![Teaser image](assets/teaser.png)
 
-[Project page](https://streetunveiler.github.io/) | [Paper]()
+[Project page](https://streetunveiler.github.io/) | [Paper](https://arxiv.org/abs/2405.18416)
 
 # Demo
 
@@ -15,5 +15,12 @@ Coming soon in the future.
 # Bibtex
 
 ```bibtex
-To be filled.
+@misc{xu2024StreetUnveiler,
+      title={3D StreetUnveiler with Semantic-Aware 2DGS}, 
+      author={Jingwei Xu and Yikai Wang and Yiqun Zhao and Yanwei Fu and Shenghua Gao},
+      year={2024},
+      eprint={2405.18416},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
