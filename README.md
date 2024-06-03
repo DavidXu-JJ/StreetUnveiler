@@ -10,7 +10,7 @@ https://github.com/DavidXu-JJ/StreetUnveiler/assets/68705456/103cf1f1-5808-4b52-
 
 # Code
 
-Coming soon in the future.
+Coming soon in the future. Please refer to issue https://github.com/DavidXu-JJ/StreetUnveiler/issues/1 about our plan.
 
 # Bibtex
 
