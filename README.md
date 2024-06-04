@@ -1,8 +1,34 @@
-# 3D StreetUnveiler with Semantic-Aware 2DGS
 
-![Teaser image](assets/teaser.png)
+<p align="center">
 
-[Project page](https://streetunveiler.github.io/) | [Paper](https://arxiv.org/abs/2405.18416)
+  <h1 align="center">3D StreetUnveiler with Semantic-Aware 2DGS</h1>
+  <p align="center">
+    <a href="https://davidxu-jj.github.io/"><strong>Jingwei Xu<sup>1</sup></strong></a>
+    ·
+    <a href="https://yikai-wang.github.io/"><strong>Yikai Wang<sup>2</sup></strong></a>
+    ·
+    <a href="https://scholar.google.com/citations?user=1UD_eBQAAAAJ&hl=en"><strong>Yiqun Zhao<sup>1</sup></strong></a>
+    ·
+    <a href="https://scholar.google.co.uk/citations?user=Vg54TcsAAAAJ&hl=en"><strong>Yanwei Fu<sup>2</sup></strong></a>
+    ·
+    <a href="https://scholar.google.com.sg/citations?user=fe-1v0MAAAAJ&hl=en"><strong>Shenghua Gao<sup>1</sup></strong></a>
+    <br>
+    <br>
+        <a href="https://arxiv.org/abs/2405.18416"><img src='https://img.shields.io/badge/arXiv-StreetUnveiler-red' alt='Paper PDF'></a>
+        <a href="https://streetunveiler.github.io/"><img src='https://img.shields.io/badge/Project_Page-StreetUnveiler-green' alt='Project Page'></a>
+    <br>
+    <b> ShanghaiTech University |&nbsp;Fudan University  </b>
+    </p>
+
+  <table align="center">
+    <tr>
+    <td>
+      <img src="assets/teaser.png">
+    </td>
+    </tr>
+  </table>
+
+
 
 # Demo
 
