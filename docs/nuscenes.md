@@ -13,7 +13,7 @@ Please ensure COLMAP executable is installed properly. You can refer to the [off
 
 Note: It's more recommended to use docker for the pre-installed COLMAP environment. You can refer to the [official docker image](https://hub.docker.com/r/colmap/colmap) for more details.
 
-```
+```bash
 # copy images
 cd ./preprocess_script
 python3 nuscenes_preprocess.py
@@ -47,7 +47,7 @@ wget https://huggingface.co/jingwei-xu-00/pretrained_backup_for_streetunveiler/r
 
 Then run the following command to predict the masks:
 
-```
+```bash
 cd ./3rd_party/neuralsim/dataio/autonomous_driving/waymo
 
 python3 extract_masks_after_colmap.py \
