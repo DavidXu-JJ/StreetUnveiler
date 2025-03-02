@@ -176,7 +176,7 @@ data
 # --source_path/-s: the path to the preprocessed data root, to read the lidars
 # --colmap_path/-c: the path to the colmap processed data root, to read the SfM points
 # --model_path/-m: the path to save the output model
-# --resolution/-r: the rescaling of input images
+# --resolution/-r: the scaling of input images' resolution
 
 # Waymo
 python3 train.py -s ./data/waymo/processed/segment-1172406780360799916_1660_000_1680_000_with_camera_labels \
@@ -194,13 +194,13 @@ python3 train.py -s ./data/pandaset/raw \
 python3 train.py -s ./data/kitti/raw \
                  -c ./data/kitti/colmap/2011_09_26/2011_09_26_drive_0001_sync \
                  -m ./output_kitti/2011_09_26_drive_0001_sync \
-                 -r [proper_resolution]
+                 -r [proper_resolution_scaling]
                  
 # nuScenes
 python3 train.py -s ./data/nuscenes/raw \
                  -c ./data/nuscenes/colmap/scene-0001 \
                  -m ./output_nuscenes/scene-0001 \
-                 -r [proper_resolution]
+                 -r [proper_resolution_scaling]
 ```
 
 ```
