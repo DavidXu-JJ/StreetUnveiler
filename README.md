@@ -43,7 +43,7 @@ https://github.com/DavidXu-JJ/StreetUnveiler/assets/68705456/103cf1f1-5808-4b52-
 
 # Data Preparation
 
-```
+```bash
 # Run this command before get started.
 git submodule update --init --recursive
 ```
@@ -60,7 +60,7 @@ nuScenes: Please follow [this instruction](docs/nuscenes.md).
 
 # Installation
 
-```
+```bash
 conda create -n streetunveiler python=3.10
 conda activate streetunveiler
 
@@ -122,7 +122,7 @@ ZITS-PlusPlus
 
 Finally, do:
 
-```
+```bash
 cd 3rd_party/ZITS-PlusPlus/nms/cxx/src 
 source build.sh
 ```
@@ -172,7 +172,7 @@ data
 
 ## Stage 1: Reconstruction
 
-```
+```bash
 # --source_path/-s: the path to the preprocessed data root, to read the lidars
 # --colmap_path/-c: the path to the colmap processed data root, to read the SfM points
 # --model_path/-m: the path to save the output model
@@ -209,7 +209,7 @@ python3 render.py -m ./output_waymo/segment-1172406780360799916_1660_000_1680_00
 
 ## Stage 2: The preparation for Unveiling
 
-```
+```bash
 # Example: sh unveil_preprocess.sh [model_path] [gpu_id]
 sh unveil_prepare.sh ./output_waymo/segment-1172406780360799916_1660_000_1680_000_with_camera_labels 0
 ```
@@ -222,7 +222,7 @@ You can get the instance id through the filename of each image. And then select 
 
 ## Stage 3: Unveiling
 
-```
+```bash
 # Example: sh unveil.sh [model_path] [key_frame_list] [gpu_id]
 sh unveil.sh ./output_waymo/segment-1172406780360799916_1660_000_1680_000_with_camera_labels "150 120 90 60 30 0" 0
 ```
