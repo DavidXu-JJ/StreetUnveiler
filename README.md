@@ -237,6 +237,12 @@ model_path=...
 sh eval_lpips_fid.sh "$model_path/instance_workspace_0/final_renders" "$model_path/instance_workspace_0/gt" 0
 ```
 
+# Acknowledge
+
+This project is built from [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) and [2DGS](https://github.com/hbb1/2d-gaussian-splatting). The data preprocessing part of waymo dataset is mainly based on [neuralsim](https://github.com/PJLab-ADG/neuralsim). The implementation of environment map is based on [nr3d](https://github.com/PJLab-ADG/nr3d_lib) and [torch-ngp](https://github.com/ashawkey/torch-ngp). The inpainting model is based on [LeftRefill](https://github.com/ewrfcas/LeftRefill) and [Zits++](https://github.com/ewrfcas/ZITS-PlusPlus). 
+
+We appreciate the authors for their great work.
+
 # Bibtex
 
 ```bibtex
