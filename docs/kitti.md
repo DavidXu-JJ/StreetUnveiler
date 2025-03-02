@@ -14,7 +14,7 @@ Please ensure COLMAP executable is installed properly. You can refer to the [off
 
 Note: It's more recommended to use docker for the pre-installed COLMAP environment. You can refer to the [official docker image](https://hub.docker.com/r/colmap/colmap) for more details.
 
-```
+```bash
 # copy images
 cd ./preprocess_script
 bash kitti2colmap.sh ../data/kitti/raw/2011_09_26 ../data/kitti/colmap/2011_09_26
@@ -56,7 +56,7 @@ wget https://huggingface.co/jingwei-xu-00/pretrained_backup_for_streetunveiler/r
 
 Then run the following command to predict the masks:
 
-```
+```bash
 cd preprocess_script
 bash kitti_segmentation.sh
 ```
