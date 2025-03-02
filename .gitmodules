@@ -1,0 +1,40 @@
+[submodule "3rd_party/SegFormer"]
+	path = 3rd_party/SegFormer
+	url = https://github.com/DavidXu-JJ/SegFormer.git
+	branch = tags/StreetUnveiler
+[submodule "submodules/simple-knn"]
+	path = submodules/simple-knn
+	url = https://github.com/DavidXu-JJ/simple-knn.git
+	branch = tags/StreetUnveiler
+[submodule "submodules/diff-surfel-rasterization"]
+	path = submodules/diff-surfel-rasterization
+	url = https://github.com/DavidXu-JJ/diff-surfel-rasterization.git
+	branch = tags/StreetUnveiler
+[submodule "submodules/superpose3d"]
+	path = submodules/superpose3d
+	url = https://github.com/DavidXu-JJ/superpose3d.git
+	branch = tags/StreetUnveiler
+[submodule "submodules/sh_encoder"]
+	path = submodules/sh_encoder
+	url = https://github.com/DavidXu-JJ/sh_encoder.git
+	branch = tags/StreetUnveiler
+[submodule "submodules/tiny-cuda-nn"]
+	path = submodules/tiny-cuda-nn
+	url = https://github.com/DavidXu-JJ/tiny-cuda-nn.git
+	branch = tags/StreetUnveiler
+[submodule "3rd_party/ZITS-PlusPlus"]
+	path = 3rd_party/ZITS-PlusPlus
+	url = https://github.com/DavidXu-JJ/ZITS-PlusPlus.git
+	branch = tags/StreetUnveiler
+[submodule "3rd_party/LeftRefill"]
+	path = 3rd_party/LeftRefill
+	url = https://github.com/DavidXu-JJ/LeftRefill.git
+	branch = tags/StreetUnveiler
+[submodule "submodules/pandaset-devkit"]
+	path = submodules/pandaset-devkit
+	url = https://github.com/DavidXu-JJ/pandaset-devkit.git
+	branch = tags/StreetUnveiler
+[submodule "3rd_party/neuralsim"]
+	path = 3rd_party/neuralsim
+	url = https://github.com/DavidXu-JJ/neuralsim.git
+	branch = tags/StreetUnveiler
