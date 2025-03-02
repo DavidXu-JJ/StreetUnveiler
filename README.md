@@ -43,6 +43,11 @@ https://github.com/DavidXu-JJ/StreetUnveiler/assets/68705456/103cf1f1-5808-4b52-
 
 # Data Preparation
 
+```
+# Run this command before get started.
+git submodule update --init --recursive
+```
+
 Waymo: Please follow [this instruction](docs/waymo.md).
 
 Pandaset: Please follow [this instruction](docs/pandaset.md).
@@ -205,7 +210,7 @@ python3 render.py -m ./output_waymo/segment-1172406780360799916_1660_000_1680_00
 ## Stage 2: The preparation for Unveiling
 
 ```
-# Example: sh unveil_preprocess.sh model_path gpu_id
+# Example: sh unveil_preprocess.sh [model_path] [gpu_id]
 sh unveil_prepare.sh ./output_waymo/segment-1172406780360799916_1660_000_1680_000_with_camera_labels 0
 ```
 
@@ -218,7 +223,7 @@ You can get the instance id through the filename of each image. And then select 
 ## Stage 3: Unveiling
 
 ```
-# Example: sh unveil.sh model_path key_frame_list gpu_id
+# Example: sh unveil.sh [model_path] [key_frame_list] [gpu_id]
 sh unveil.sh ./output_waymo/segment-1172406780360799916_1660_000_1680_000_with_camera_labels "150 120 90 60 30 0" 0
 ```
 
