@@ -232,7 +232,7 @@ sh unveil.sh ./output_waymo/segment-1172406780360799916_1660_000_1680_000_with_c
 # Evaluation
 
 ```bash
-# Example: sh eval_lpips_fid.sh results_path gt_path gpu_id
+# Example: sh eval_lpips_fid.sh [results_path] [gt_path] [gpu_id]
 model_path=...
 sh eval_lpips_fid.sh "$model_path/instance_workspace_0/final_renders" "$model_path/instance_workspace_0/gt" 0
 ```
