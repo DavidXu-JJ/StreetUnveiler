@@ -7,7 +7,7 @@ Warning: The segmentation at Step 4 requires a rigid CUDA 11.1. We provide a doc
 
 ## Step 0: Install environment for downloading and preprocessing only.
 
-```
+```bash
 conda create -n waymo_preprocess python=3.10
 conda activate waymo_preprocess
 
@@ -32,7 +32,7 @@ pip install tensorflow_gpu==2.11.0 waymo-open-dataset-tf-2-11-0
 
 - Please follow the official 7-step instruction to install Google Cloud CLI: https://cloud.google.com/sdk/docs/install
 
-```
+```bash
 curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-linux-x86_64.tar.gz
 
 tar -xf google-cloud-cli-linux-x86_64.tar.gz
@@ -50,7 +50,7 @@ Don't forget to add `bin` folder to your PATH environment variable.
 
 ## Step 2: Download and Preprocess Waymo Open Dataset.
 
-```
+```bash
 cd ./3rd_party/neuralsim/dataio/autonomous_driving/waymo
 bash download_waymo.sh waymo_static_32.lst ../../../../../data/waymo/training
 python preprocess.py --root=../../../../../data/waymo/training --out_root=../../../../../data/waymo/processed -j4 --seq_list=waymo_static_32.lst
@@ -64,7 +64,7 @@ Please ensure COLMAP executable is installed properly. You can refer to the [off
 
 Note: It's more recommended to use docker for the pre-installed COLMAP environment. You can refer to the [official docker image](https://hub.docker.com/r/colmap/colmap) for more details.
 
-```
+```bash
 # copy images
 cd ./preprocess_script
 bash waymo2colmap.sh ../data/waymo/processed ../data/waymo/colmap
@@ -128,7 +128,7 @@ wget https://huggingface.co/jingwei-xu-00/pretrained_backup_for_streetunveiler/r
 
 Then run the following command to predict the masks:
 
-```
+```bash
 cd ./3rd_party/neuralsim/dataio/autonomous_driving/waymo
 
 python3 extract_masks_after_colmap.py \
