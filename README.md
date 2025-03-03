@@ -12,7 +12,7 @@
     ·
     <a href="https://scholar.google.co.uk/citations?user=Vg54TcsAAAAJ&hl=en"><strong>Yanwei Fu<sup>5</sup></strong></a>
     ·
-    <a href="https://scholar.google.com.sg/citations?user=fe-1v0MAAAAJ&hl=en"><strong>Shenghua Gao<sup>3,4</sup></strong></a>
+    <a href="https://scholar.google.com.sg/citations?user=fe-1v0MAAAAJ&hl=en"><strong>Shenghua Gao<sup>3,4†</sup></strong></a>
     <br>
     <b>
         <sup>1</sup> ShanghaiTech University &nbsp;  
@@ -23,6 +23,7 @@
         <sup>6</sup> Transcengram
     </b>
     <br>
+    <b> († denotes corresponding author)</b>
     <br>
         <a href="https://arxiv.org/abs/2405.18416"><img src='https://img.shields.io/badge/arXiv-StreetUnveiler-red' alt='Paper PDF'></a>
         <a href="https://streetunveiler.github.io/"><img src='https://img.shields.io/badge/Project_Page-StreetUnveiler-green' alt='Project Page'></a>
