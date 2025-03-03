@@ -98,6 +98,7 @@ Or you may run the following command to download the model:
 ```bash
 cd 3rd_party/ZITS-PlusPlus
 mkdir ckpts
+cd ckpts
 wget https://huggingface.co/jingwei-xu-00/pretrained_backup_for_streetunveiler/resolve/main/ZITS%2B%2B/best_lsm_hawp.pth
 wget https://huggingface.co/jingwei-xu-00/pretrained_backup_for_streetunveiler/blob/main/ZITS%2B%2B/model_512.zip
 unzip model_512.zip
@@ -138,6 +139,7 @@ Or you may run the following command to download the model:
 ```bash
 cd 3rd_party/LeftRefill
 mkdir pretrained_models
+cd pretrained_models
 wget https://huggingface.co/jingwei-xu-00/pretrained_backup_for_streetunveiler/resolve/main/LeftRefill/512-inpainting-ema.ckpt
 ```
 
