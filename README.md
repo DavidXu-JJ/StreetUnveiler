@@ -155,7 +155,7 @@ LeftRefill
 ...
 ```
 
-Update: We wrap LeftRefill into a simple api at https://github.com/DavidXu-JJ/simple-leftrefill-inpainting.
+(Update: We wrap LeftRefill into a simple API at https://github.com/DavidXu-JJ/simple-leftrefill-inpainting. You may try to use this API if you consider using it in your own project.)
 
 # Run the code
 
