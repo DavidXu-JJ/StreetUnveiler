@@ -26,6 +26,7 @@
     <b> († denotes corresponding author)</b>
     <br>
         <a href="https://arxiv.org/abs/2405.18416"><img src='https://img.shields.io/badge/arXiv-StreetUnveiler-red' alt='Paper PDF'></a>
+        <a href="https://huggingface.co/papers/2405.18416"><img src='https://img.shields.io/badge/HF-StreetUnveiler-yellow' alt='Paper PDF'></a>
         <a href="https://streetunveiler.github.io/"><img src='https://img.shields.io/badge/Project_Page-StreetUnveiler-green' alt='Project Page'></a>
     <br>
     </p>
@@ -153,6 +154,8 @@ LeftRefill
 |
 ...
 ```
+
+Update: We wrap LeftRefill into a simple api at https://github.com/DavidXu-JJ/simple-leftrefill-inpainting.
 
 # Run the code
 
