@@ -62,11 +62,19 @@ nuScenes: Please follow [this instruction](docs/nuscenes.md).
 
 # Installation
 
+If you meet difficulties with the upcoming installation, you may want to try our prepared [docker image](https://hub.docker.com/repository/docker/davidxujw/streetunveiler/general) for your testing:
+
+```bash
+docker pull davidxujw/streetunveiler:20250224
+```
+
 ```bash
 conda create -n streetunveiler python=3.10
 conda activate streetunveiler
 
 # Suppose CUDA version is 12.1, please change your code properly according to your CUDA version.
+# (Update: Somebody reports that the installation has some issues with CUDA 11.8.
+# It's recommended to use CUDA 12.1 for your environment.)
 conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.1 -c pytorch -c nvidia
 
 pip install -r requirements.txt
