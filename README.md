@@ -89,6 +89,9 @@ cd submodules/tiny-cuda-nn/bindings/torch
 pip install .
 
 # For Pandaset
+# Note: Please install the attached submodule version at
+# https://github.com/DavidXu-JJ/pandaset-devkit/tree/d6262bf8ec5e7a94c2876d9fbff198389a9d3649
+# instead of the original one.
 cd submodules/pandaset-devkit/python
 pip install .
 ```
